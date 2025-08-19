@@ -1,0 +1,31 @@
+{
+  "created_at": "2025-08-10T01:17:24.332584Z",
+  "input_dim": 42,
+  "categorical_cols": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "numerical_cols": [
+    "age",
+    "balance",
+    "day",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "class_weights": {
+    "0": 0.5686019412023474,
+    "1": 4.144211747049594
+  },
+  "threshold": 0.875,
+  "val_auc_best": 0.9617058634757996,
+  "notes": "Binary classifier with OneHot+Scale, class weights, ES+ReduceLROnPlateau"
+}
